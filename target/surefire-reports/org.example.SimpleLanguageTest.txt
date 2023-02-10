@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.example.SimpleLanguageTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.515 s <<< FAILURE! - in org.example.SimpleLanguageTest
+whenSimpleLanguageUseCachedEntriesItWillFail  Time elapsed: 3.482 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <This is a test a with startLabel: `Document` endLabel: `Document` and label: `ALabel`> but was: <This is a test a with startLabel: `This is a test a with startLabel: `DocumentDocument` endLabel: `` endLabel: `DocumentDocumentnullALabel``>
+	at org.example.SimpleLanguageTest.lambda$whenSimpleLanguageUseCachedEntriesItWillFail$1(SimpleLanguageTest.java:53)
+	at org.example.SimpleLanguageTest.whenSimpleLanguageUseCachedEntriesItWillFail(SimpleLanguageTest.java:53)
+
